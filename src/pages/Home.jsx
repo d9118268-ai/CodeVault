@@ -77,8 +77,8 @@ export default function Home() {
 
       <div className="center">
         <div className="brand-tag">✦ CodeVault ✦</div>
-        <h1 className="hero-title">Master Coding.<br/>Build Your Future.</h1>
-        <p className="hero-sub">Premium coding courses, real certificates, and an AI tutor — all in one platform.</p>
+        <h1 className="hero-title">Master Coding.<br/>Build Your Future with CodeVault.</h1>
+        <p className="hero-sub">The premium platform to learn real-world coding skills, earn certificates, and launch your tech career.</p>
         <div className="btn-row">
           <button className="btn-signup" onClick={() => navigate('/signup')}>Get Started Free</button>
           <button className="btn-signin" onClick={() => navigate('/login')}>Sign In</button>

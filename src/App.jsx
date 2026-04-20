@@ -4,6 +4,7 @@ import Signup from "./pages/Signup"
 import Login from "./pages/Login"
 import VerifyEmail from "./pages/VerifyEmail"
 import Profile from "./pages/Profile"
+import Dashboard from "./pages/Dashboard"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/verify-email" element={<VerifyEmail />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
   )
